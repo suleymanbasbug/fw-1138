@@ -13,20 +13,19 @@
 				],
 				"isRemovable": true,
 				"name": "page1",
-				"orientation": "PORTRAIT",
+				"orientation": "AUTO",
 				"parent": null,
 				"safeAreaEnabled": true
 			},
 			"type": "Page",
 			"userProps": {
-				"orientation": "PORTRAIT",
+				"orientation": "AUTO",
 				"safeAreaEnabled": true
 			},
-			"version": "6.15.1",
-			"degree": 0
+			"version": "6.15.1"
 		},
 		{
-			"className": ".sf-statusBar",
+			"className": ".sf-statusBar .bgGreen",
 			"id": "42b807d1",
 			"props": {
 				"children": [],
@@ -35,14 +34,15 @@
 				"parent": "e891b86d"
 			},
 			"type": "StatusBar",
-			"userProps": {},
-			"degree": 1
+			"userProps": {}
 		},
 		{
-			"className": ".sf-headerBar",
+			"className": ".sf-headerBar .bgBlack .image .transparent",
 			"id": "b7d28cff",
 			"props": {
-				"children": [],
+				"children": [
+					"d143-2c4f-34bc-8a27"
+				],
 				"isRemovable": false,
 				"name": "headerBar",
 				"parent": "e891b86d",
@@ -51,8 +51,24 @@
 			"type": "HeaderBar",
 			"userProps": {
 				"title": "Page1"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flHeaderbar .bgYellow #page1-flHeaderbar_1",
+			"hiddenComponent": false,
+			"id": "d143-2c4f-34bc-8a27",
+			"props": {
+				"children": [],
+				"name": "flHeaderbar_1",
+				"parent": "b7d28cff"
 			},
-			"degree": 1
+			"source": {
+				"page": "__library__",
+				"type": "flHeaderbar_1",
+				"id": "9978-47b5-ec20-44d6"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
 		},
 		{
 			"className": ".sf-flexLayout #page1-wrapper",
@@ -66,28 +82,7 @@
 				"parent": "e891b86d"
 			},
 			"type": "FlexLayout",
-			"userProps": {},
-			"degree": 1
-		},
-		{
-			"className": ".sf-button #page1-btnNext",
-			"id": "9e49-7873-afba-472b",
-			"props": {
-				"autoHeight": 50.561797752808985,
-				"children": [],
-				"name": "btnNext",
-				"parent": "e891b86d",
-				"text": "Next Page",
-				"usePageVariable": true
-			},
-			"type": "Button",
-			"userProps": {
-				"autoHeight": 50.561797752808985,
-				"testId": "93f6-Tngc",
-				"text": "Next Page",
-				"usePageVariable": true
-			},
-			"degree": 1
+			"userProps": {}
 		},
 		{
 			"className": ".sf-label #page1-lbl",
@@ -104,10 +99,26 @@
 			"userProps": {
 				"autoHeight": 39.325842696629216,
 				"text": "Page1",
-				"usePageVariable": true,
-				"testId": "_tdYNDkDX"
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-button #page1-btnNext",
+			"id": "9e49-7873-afba-472b",
+			"props": {
+				"autoHeight": 50.561797752808985,
+				"children": [],
+				"name": "btnNext",
+				"parent": "e891b86d",
+				"text": "Next Page",
+				"usePageVariable": true
 			},
-			"degree": 2
+			"type": "Button",
+			"userProps": {
+				"autoHeight": 50.561797752808985,
+				"text": "Next Page",
+				"usePageVariable": true
+			}
 		}
 	]
 }

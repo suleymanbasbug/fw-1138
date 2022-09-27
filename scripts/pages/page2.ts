@@ -17,6 +17,9 @@ export default class Page2 extends withDismissAndBackButton(Page2Design) {
     this.btnSayHello.on('press', () => alert(i18n.instance.t('helloWorld')));
     this.btnOpenModal.on('press', () => this.router.push('page3'));
     this.btnLanguage.on('press', () => this.languageTest());
+   
+    
+    
   }
 
   languageTest() {
@@ -55,5 +58,6 @@ export default class Page2 extends withDismissAndBackButton(Page2Design) {
         }
       })
     ]);
+    this.flexLayout1.minHeight = 10;
   }
 }

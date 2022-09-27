@@ -2,7 +2,7 @@
 	"components": [
 		{
 			"className": ".sf-listViewItem .simple-listviewItem",
-			"hiddenComponent": false,
+			"hiddenComponent": true,
 			"id": "1841-ff9a-b968-028d",
 			"initialized": true,
 			"props": {
@@ -18,11 +18,7 @@
 				"page": "__library__"
 			},
 			"type": "ListViewItem",
-			"userProps": {
-				"flexProps": {},
-				"left": 0,
-				"top": 361.9047619047619
-			}
+			"userProps": {}
 		},
 		{
 			"className": ".sf-label .simple-listviewItem-title",
@@ -42,7 +38,6 @@
 			"userProps": {
 				"autoHeight": 51.086956521739125,
 				"autoWidth": 134.91847826086956,
-				"marginLeft": 16,
 				"text": "ListView Cell Title"
 			}
 		},
@@ -64,7 +59,6 @@
 			"userProps": {
 				"autoHeight": 51.086956521739125,
 				"autoWidth": 10.478940217391305,
-				"marginRight": 16,
 				"text": ""
 			}
 		},

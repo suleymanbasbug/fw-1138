@@ -39,6 +39,41 @@
       },
       "height": null,
       "width": null
+    },
+    "&-flHeaderBar": {
+      "flexProps": {
+        "positionType": "RELATIVE"
+      },
+      "flex": {
+        "positionType": 0
+      }
+    },
+    "&-flHeaderbar": {
+      "flexProps": {
+        "positionType": "RELATIVE",
+        "flexDirection": "ROW_REVERSE"
+      },
+      "flex": {
+        "positionType": 0
+      },
+      "&_1": {
+        "flexProps": {
+          "positionType": "RELATIVE",
+          "flexDirection": "ROW"
+        },
+        "flex": {
+          "positionType": 0
+        },
+        "backgroundColor": "rgba( 255, 255, 255, 0 )"
+      }
+    },
+    "&-flHeaderbar1": {
+      "flexProps": {
+        "positionType": "RELATIVE"
+      },
+      "flex": {
+        "positionType": 0
+      }
     }
   }
 }

@@ -95,5 +95,86 @@
     "flexProps": {
       "justifyContent": "CENTER"
     }
+  },
+  ".bgBlack": {
+    "backgroundColor": "rgba( 0, 0, 0, 1 )",
+    "transparent": false
+  },
+  ".bgYellow": {
+    "backgroundColor": "rgba( 248, 231, 28, 1 )",
+    "height": 190,
+    "flexProps": {
+      "alignContent": "SPACE_AROUND"
+    }
+  },
+  ".box": {
+    "width": 40,
+    "height": 40
+  },
+  ".bgRed": {
+    "backgroundColor": "rgba( 208, 2, 27, 1 )"
+  },
+  ".bgBlue": {
+    "backgroundColor": "rgba( 74, 144, 226, 1 )"
+  },
+  ".bgBrown": {
+    "backgroundColor": "rgba( 139, 69, 19, 1 )"
+  },
+  ".flHeaderbar": {
+    "flexProps": {
+      "alignItems": "FLEX_START",
+      "flexDirection": "COLUMN_REVERSE",
+      "positionType": "RELATIVE",
+      "justifyContent": "FLEX_START",
+      "flexGrow": 1
+    },
+    "width": 10,
+    "top": null,
+    "left": null,
+    "height": null
+  },
+  ".btnTest": {
+    "width": 250
+  },
+  ".searchViewTest": {
+    "width": 150
+  },
+  ".transparent": {
+    "transparent": true
+  },
+  ".bgGreen": {
+    "style": "LIGHTCONTENT"
+  },
+  ".flSearch": {
+    "flexProps": {
+      "alignItems": "CENTER",
+      "flexDirection": "ROW"
+    },
+    "width": null
+  },
+  ".lblSearch": {
+    "font": {
+      "name": "",
+      "family": "FontAwesome5FreeRegular",
+      "style": null,
+      "bold": false,
+      "italic": false
+    },
+    "width": 50
+  },
+  ".image": {
+    "backgroundImage": "smartface.png"
+  },
+  ".flOne": {
+    "flexProps": {
+      "flexGrow": 0.5
+    },
+    "backgroundColor": "rgba( 0, 0, 0, 1 )"
+  },
+  ".flTwo": {
+    "flexProps": {
+      "flexGrow": 0.5
+    },
+    "backgroundColor": "rgba( 245, 166, 35, 1 )"
   }
 }

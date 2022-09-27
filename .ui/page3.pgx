@@ -19,8 +19,7 @@
 			"userProps": {
 				"safeAreaEnabled": true
 			},
-			"version": "0.0.1.a",
-			"degree": 0
+			"version": "0.0.1.a"
 		},
 		{
 			"className": ".sf-statusBar",
@@ -32,11 +31,10 @@
 				"parent": "c56a-6909-78ff-2657"
 			},
 			"type": "StatusBar",
-			"userProps": {},
-			"degree": 1
+			"userProps": {}
 		},
 		{
-			"className": ".sf-headerBar",
+			"className": ".sf-headerBar .transparent",
 			"id": "19da-8571-e870-cd5a",
 			"props": {
 				"children": [],
@@ -48,8 +46,7 @@
 			"type": "HeaderBar",
 			"userProps": {
 				"title": "Modal Page"
-			},
-			"degree": 1
+			}
 		},
 		{
 			"className": ".sf-button #page3-btnGoBack",
@@ -65,10 +62,8 @@
 			"type": "Button",
 			"userProps": {
 				"text": "Dismiss",
-				"usePageVariable": true,
-				"testId": "B5heovCcX"
-			},
-			"degree": 1
+				"usePageVariable": true
+			}
 		}
 	]
 }

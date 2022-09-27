@@ -1,0 +1,58 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flHeaderbar .bgYellow",
+			"id": "9978-47b5-ec20-44d6",
+			"props": {
+				"children": [
+					"83d3-065a-5937-083d",
+					"69aa-6944-6a52-aef2",
+					"082e-4193-d672-34d9"
+				],
+				"name": "flHeaderbar_1",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .box .bgRed",
+			"id": "83d3-065a-5937-083d",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [],
+				"name": "flOne",
+				"parent": "9978-47b5-ec20-44d6"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .box .bgBlue",
+			"id": "69aa-6944-6a52-aef2",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [],
+				"name": "flTwo",
+				"parent": "9978-47b5-ec20-44d6"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .box .bgBrown",
+			"id": "082e-4193-d672-34d9",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [],
+				"name": "flThree",
+				"parent": "9978-47b5-ec20-44d6"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		}
+	]
+}
